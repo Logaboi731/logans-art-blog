@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    left: 0;
+    top: 0;
+    background: linear-gradient(
+        45deg,
+        hsl(240deg 100% 20%) 0%,
+        hsl(289deg 100% 21%) 11%,
+        hsl(315deg 100% 27%) 22%,
+        hsl(329deg 100% 36%) 33%,
+        hsl(337deg 100% 43%) 44%,
+        hsl(357deg 91% 59%) 56%,
+        hsl(17deg 100% 59%) 67%,
+        hsl(34deg 100% 53%) 78%,
+        hsl(45deg 100% 50%) 89%,
+        hsl(55deg 100% 50%) 100%
+    ) no-repeat;
+    background-size: 100% 100%;
+    font-family: 'Oswald', sans-serif;
+    height: 100vh; /* Ensure the background covers the entire viewport height */
+    overflow: hidden; /* Prevent scrollbars caused by gradient overflow */
+}
