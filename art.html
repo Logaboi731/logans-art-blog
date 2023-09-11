@@ -1,0 +1,51 @@
+<!-- art-detail.html (for Artwork 1) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artwork 1 - Logan's Art Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Menu (You can include it on all pages) -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="art.html">Art</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="cool-button.html">Cool Button</a></li>
+        </ul>
+    </nav>
+
+    <!-- Artwork Details -->
+    <section class="art-detail">
+        <img src="artwork-1.jpg" alt="Artwork 1">
+        <h1>Artwork 1</h1>
+        <p>Description of Artwork 1 goes here.</p>
+
+        <!-- Comment Button -->
+        <button id="comment-button">Comment</button>
+
+        <!-- Star Rating System (You may use JavaScript for this) -->
+        <section class="star-rating">
+            <!-- Add the star rating interface here -->
+        </section>
+
+        <!-- Comment Section (Hidden by default, shown when Comment button is clicked) -->
+        <section class="comment-section" style="display: none;">
+            <!-- Add a comment form here -->
+        </section>
+    </section>
+
+    <!-- JavaScript for showing/hiding the comment section -->
+    <script>
+        const commentButton = document.getElementById('comment-button');
+        const commentSection = document.querySelector('.comment-section');
+
+        commentButton.addEventListener('click', () => {
+            commentSection.style.display = 'block';
+        });
+    </script>
+</body>
+</html>
