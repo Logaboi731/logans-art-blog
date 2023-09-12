@@ -51,3 +51,44 @@ body {
 #submit-comment:hover {
     background-color: #1e7e34; /* Button background color on hover */
 }
+/* Style for the Red Button */
+#cool-button {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#cool-button:hover {
+    background-color: darkred;
+}
+
+/* Style for the Blue Screen Overlay */
+#blue-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.white-text {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+
+/* Hide the blue overlay by default */
+.hidden {
+    display: none;
+}
+
