@@ -22,3 +22,32 @@ body {
     height: 100vh; /* Ensure the background covers the entire viewport height */
     overflow: hidden; /* Prevent scrollbars caused by gradient overflow */
 }
+/* Add this CSS to your style.css file */
+
+/* Style for Comment Button */
+#comment-button {
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    padding: 10px 20px; /* Button padding */
+    border: none; /* Remove button border */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add a smooth background color transition on hover */
+}
+
+#comment-button:hover {
+    background-color: #0056b3; /* Button background color on hover */
+}
+
+/* Style for Submit Button */
+#submit-comment {
+    background-color: #28a745; /* Button background color */
+    color: #fff; /* Button text color */
+    padding: 10px 20px; /* Button padding */
+    border: none; /* Remove button border */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add a smooth background color transition on hover */
+}
+
+#submit-comment:hover {
+    background-color: #1e7e34; /* Button background color on hover */
+}
