@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cool Button - Logan's Art Blog</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- Navigation Menu (You can include it on all pages) -->
@@ -18,8 +19,16 @@
 
     <!-- Cool Button Content -->
     <section class="cool-button-page">
-        <h1>You Pressed the Cool Button!</h1>
-        <img src="dancing.gif" alt="Dancing GIF">
+        <!-- Red "IMPORTANT! CLICK ME!" Button -->
+        <button id="cool-button">IMPORTANT! CLICK ME!</button>
+
+        <!-- Blue Screen Overlay (Hidden by Default) -->
+        <div id="blue-overlay" class="hidden">
+            <p class="white-text">hi.</p>
+        </div>
     </section>
+
+    <!-- JavaScript for Button Click Effect -->
+    <script src="button-effect.js"></script>
 </body>
 </html>
